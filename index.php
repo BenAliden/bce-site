@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!-- Header -->
+<div id="all-wrapper">
+	<div class="main-wrapper">
+		<div class="logo-wrapper">
+			<a href="./"><img class="bme-logo" src="../BrandIdentity/WebsiteHeader_v00.png"></a>
+		</div>
+		<div class="menu-bar">
+			<div id="menu-btn">
+				<img src="images/hamburger.png">
+			
+				<div id="menu">
+					<ul>
+						<a href="results.php"><li>Results</li></a>
+						<a href="howitworks.php"><li>How it Works</li></a>
+						<a href="pricing.php"><li>Pricing</li></a>
+						<a href="newevent.php"><li>Host an Event</li></a>
+					</ul>
+				</div>
+			</div>
+			<div style="float:right;">
+				<ul>
+					<a href="login.php"><li>Log In</li></a>
+					<a href="signup.php"><li>Sign Up</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- Navigation Menu -->
+		<!-- <div class="nav-sidebar">
+			<ul>
+				<a href="events.php"><li>Upcoming Events</li></a>
+				<a href="results.php"><li>Past Events</li></a>
+				<a href="pricing.php"><li>Host an Event</li></a>
+				<a href="howitworks.php"><li>How it Works</li></a>
+				<a href="login.php"><li>Log In</li></a>
+				<a href="signup.php"><li>Sign Up</li></a>
+			</ul>
+		</div> -->
+		<!-- Main Body -->
+		<div class="main-content">
+			<p>The challenge is simple: you have a ballroom competition you need to run. We make the solution simple as well. We provide all of the tools you need to run a competition, from registering competitors and setting up events to on deck check-in and managing callbacks during the event. By providing hardware and software to suit your needs, we make it easy to run a competition in a way that saves effort and trouble for organizers, competitors, and judges, while providing the flexibility to run your competition the way you want.</p>
+			
+			<div style="float: left; clear: both; margin-right: 20px;">
+				<h2>Current Events</h2>
+				<div>
+					<div class="cevent">
+						<img src="./images/sclogo.png">
+						<div>
+							<span class="label">Gamecock Invitational</span><br>
+							<span class="sublabel">Columbia, SC</span><br><br>
+							<span class="label">On the Floor:</span> <span id="e1of" class="infolabel">Bronze Smooth W/F Final</span><br>
+							<span class="label">On Deck:</span> <span id="e1od" class="infolabel">Bronze Smooth Tango Final</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="scwrapper clear">
+				<h2>Upcoming Events</h2>
+				<div class="scroll-container">
+					<div>
+						<div class="img-wrapper">
+							<img src="./images/sclogo.png">
+						</div>
+						<div class="txt-wrapper">
+							<span class="label">Arnold Youth Dancesport Classic</span><br>
+							18-20 November 2017<br>
+							Columbus, OH
+						</div>
+					</div>
+					<div>
+						<div class="img-wrapper">
+							<img src="./images/sclogo.png">
+						</div>
+						<div class="txt-wrapper">
+							<span class="label">OSB Collegiate Challenge</span><br>
+							18-20 November 2017<br>
+							Columbus, OH
+						</div>
+					</div>
+					<div>
+						<div class="img-wrapper">
+							<img src="./images/sclogo.png">
+						</div>
+						<div class="txt-wrapper">
+							<span class="label">OSB Collegiate Challenge</span><br>
+							18-20 November 2017<br>
+							Columbus, OH
+						</div>
+					</div>
+					<div>
+						<div class="img-wrapper">
+							<img src="./images/sclogo.png">
+						</div>
+						<div class="txt-wrapper">
+							<span class="label">OSB Collegiate Challenge</span><br>
+							18-20 November 2017<br>
+							Columbus, OH
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="scwrapper">
+				<h2>Recent Events</h2>
+				<div class="scroll-container">
+					<div>
+						<div class="img-wrapper">
+							<img src="./images/sclogo.png">
+						</div>
+						<div class="txt-wrapper">
+							<span class="label">Gamecock Invitational</span><br>
+							29 October 2017<br>
+							Columbia, SC
+						</div>
+					</div>
+					<div>
+						<div class="img-wrapper">
+							<img src="./images/sclogo.png">
+						</div>
+						<div class="txt-wrapper">
+							<span class="label">Gamecock Invitational</span><br>
+							29 October 2017<br>
+							Columbia, SC
+						</div>
+					</div>
+					<div>
+						<div class="img-wrapper">
+							<img src="./images/sclogo.png">
+						</div>
+						<div class="txt-wrapper">
+							<span class="label">Gamecock Invitational</span><br>
+							29 October 2017<br>
+							Columbia, SC
+						</div>
+					</div>
+					<div>
+						<div class="img-wrapper">
+							<img src="./images/sclogo.png">
+						</div>
+						<div class="txt-wrapper">
+							<span class="label">Gamecock Invitational</span><br>
+							29 October 2017<br>
+							Columbia, SC
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<!-- Footer -->
+<div id="footer">
+	<div id="copyright">&copy; 2017 Ballroom Comp Express</div>
+</div>
+</body>
+</html>
