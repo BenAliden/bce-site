@@ -1,0 +1,316 @@
+html
+{
+	font-family: 'Rubik', Arial, sans-serif;
+	font-size: 12pt;
+	height: 100%;
+	color: #111;
+}
+
+body
+{
+	height: 100%;
+}
+
+h2
+{
+	color: #1e5dc9;
+}
+
+h4
+{
+	font-style: italic;
+}
+
+.logo-wrapper
+{
+	width: 100%;
+	padding-top: 10px;
+}
+
+.bme-logo
+{
+	max-width: 100%;
+}
+
+#all-wrapper
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	width: 70em;
+	max-width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100%;
+}
+
+.main-wrapper
+{
+	padding-bottom: 45px;
+	overflow-y: auto;
+}
+
+.menu-bar
+{
+	height: 45px;
+	position: relative;
+	font-size: 14pt;
+}
+
+.menu-bar ul
+{
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.menu-bar ul li
+{
+	padding: 10px;
+	float: left;
+	margin-left: 20px;
+}
+
+.menu-bar ul li:first-child 
+{
+	margin-left: 0px;
+}
+
+#menu-btn img
+{
+	height: 25px;
+	margin-top: 10px;
+}
+
+#menu-btn
+{
+	float: left;
+	height: 100%;
+}
+
+#menu-btn:hover #menu
+{
+	/*display: block;*/
+	height: 170px;
+}
+
+#menu
+{
+	position: absolute;
+	top: 45px;
+	background: #fff;
+	box-shadow: 5px 5px 5px #888;
+	/*display: none;*/
+	height: 0px;
+	overflow-y: hidden;
+	
+	transition: height 1s;
+
+}
+
+#menu:hover
+{
+	/*display: block;*/
+	height: 170px;
+}
+
+.nav-sidebar
+{
+	width: 20%;
+	min-width: 150px;
+	float: left;
+}
+
+#menu ul
+{
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 0px;
+}
+
+#menu li
+{
+	padding: 10px;
+	float: none;
+}
+
+.menu-bar li:hover
+{
+	background-color: #6eeace;
+}
+
+.menu-bar a
+{
+	text-decoration: none;
+	color: #111;
+}
+
+.main-content
+{
+	
+}
+
+.cevent
+{
+	float: left;
+	padding: 8px;
+}
+
+.cevent img
+{
+	max-height: 40px;
+	max-width: 40px;
+	float: left;
+}
+
+.cevent > div
+{
+	float: none;
+	padding-left: 50px;
+}
+
+.label
+{
+	font-weight: bold;
+}
+
+.sublabel
+{
+	font-weight: bold;
+	font-style: italic;
+}
+
+.scwrapper
+{
+	float: left; 
+	margin-right: 20px; 
+	max-width: 100%;
+	width: 350px;
+}
+
+.scroll-container
+{
+	padding-left: 10px;
+	max-height: 250px;
+	overflow-y: auto;
+}
+
+.scroll-container > div
+{
+	border-top: 1px solid black;
+	padding: 5px;
+	clear: both;
+}
+
+.scroll-container > div > div
+{
+	float: left;
+}
+
+.scroll-container .img-wrapper
+{
+	float: left;
+	width: 40px;
+}
+
+.scroll-container .txt-wrapper
+{
+	float: none;
+	padding-left: 50px;
+}
+
+.scroll-container img
+{
+	max-height: 40px;
+	max-width: 100%;
+}
+
+.scroll-container > div:first-child
+{
+	border-top: 0px;
+}
+
+.pricing-wrapper
+{
+	clear: both;
+}
+
+.pricing-wrapper > div:first-child
+{
+	float: left; 
+	font-size: 25pt; 
+	font-weight: bold; 
+	margin-right: 20px; 
+	margin-top: 16pt; 
+	width: 100px;
+	color: #1e5dc9;
+}
+
+.pricing-wrapper > div:nth-child(2)
+{
+	float:left; 
+	max-width: calc(100% - 120px);
+}
+
+.pricing-wrapper div div
+{
+	float: none;
+}
+
+.pricing-mod
+{
+	font-size: 13pt;
+}
+
+#footer
+{
+	position: relative; 
+	height: 45px;
+	margin-top: -45px;
+	clear:both;
+	width: 70em;
+	max-width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#copyright
+{
+	padding-top: 20px;
+	font-size: 11pt;
+}
+
+.infolabel
+{
+	/*animation-name: text-transition;
+	animation-duration: 1s;
+	animation-direction: alternate;*/
+	
+	transition: color 1s, background-color 1s;
+}
+
+@keyframes text-transition
+{
+	from { background-color: none; color: #111; }
+	to { background-color: #13dcaf; color: #13dcaf; }
+}
+
+.m0
+{
+	margin: 0px;
+}
+
+.mt0
+{
+	margin-top: 0px;
+}
+
+.mb0
+{
+	margin-bottom: 0px;
+}
+
+.clear
+{
+	clear: both;
+}
