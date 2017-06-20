@@ -236,7 +236,7 @@ h4
 	border-top: 1px solid #ccc;
 	margin-left: 4%;
 	width: calc(120px + 40em);
-	max-width: 100%;
+	max-width: 96%;
 }
 
 .pricing-wrapper > div:first-child
