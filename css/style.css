@@ -233,17 +233,24 @@ h4
 .pricing-wrapper
 {
 	clear: both;
+	border-top: 1px solid #ccc;
+	margin-left: 25px;
 }
 
 .pricing-wrapper > div:first-child
 {
 	float: left; 
-	font-size: 25pt; 
+	font-size: 13pt; 
 	font-weight: bold; 
 	margin-right: 20px; 
 	margin-top: 16pt; 
 	width: 100px;
 	color: #1e5dc9;
+}
+
+.pricing-wrapper > div:first-child .big
+{
+	font-size: 25pt;
 }
 
 .pricing-wrapper > div:nth-child(2)
@@ -255,6 +262,12 @@ h4
 .pricing-wrapper div div
 {
 	float: none;
+	max-width: 40em;
+}
+
+.pricing-wrapper div div:last-child
+{
+	margin-bottom: 16pt;
 }
 
 .pricing-mod
@@ -293,6 +306,11 @@ h4
 {
 	from { background-color: none; color: #111; }
 	to { background-color: #13dcaf; color: #13dcaf; }
+}
+
+.first
+{
+	border: 0px;
 }
 
 .m0
