@@ -21,6 +21,11 @@ h4
 	font-style: italic;
 }
 
+a
+{
+	color: #1e5dc9;
+}
+
 .logo-wrapper
 {
 	width: 100%;
@@ -277,6 +282,49 @@ h4
 	font-size: 13pt;
 }
 
+.hw-wrapper
+{
+	clear:both;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	max-width: 100%;
+}
+
+.hw-wrapper .right
+{
+	float: right;
+	margin-left: 20px;
+}
+
+.hw-wrapper .left
+{
+	float: left;
+	margin-right: 20px;
+}
+
+.hw-wrapper > div
+{
+	margin-top: 80px;
+}
+
+.hw-wrapper div.img-wrapper
+{
+	width:250px; 
+	height:200px; 
+	background:#888; 
+}
+
+.hw-wrapper div.text-wrapper
+{
+	width: 25em;
+}
+
+.hw-wrapper div.text-wrapper div
+{
+	float:none;
+}
+
 #footer
 {
 	position: relative; 
@@ -333,4 +381,27 @@ h4
 .clear
 {
 	clear: both;
+}
+
+@media screen and (max-width:724px)
+{	
+	.hw-wrapper .left
+	{
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.hw-wrapper .right
+	{
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.hw-wrapper .text-wrapper
+	{
+		margin-top: 25px;
+	}
+		
 }
