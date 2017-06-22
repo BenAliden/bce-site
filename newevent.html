@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!-- Header -->
+<div id="all-wrapper">
+	<div class="main-wrapper">
+		<div class="logo-wrapper">
+			<a href="./"><img class="bme-logo" src="images/WebsiteHeader_v00.png"></a>
+		</div>
+		<div class="menu-bar">
+			<div id="menu-btn">
+				<img src="images/hamburger.png">
+			
+				<div id="menu">
+					<ul>
+						<a href="results.html"><li>Results</li></a>
+						<a href="howitworks.html"><li>How it Works</li></a>
+						<a href="pricing.html"><li>Pricing</li></a>
+						<a href="newevent.html"><li>Host an Event</li></a>
+					</ul>
+				</div>
+			</div>
+			<div style="float:right;">
+				<ul>
+					<a href="login.html"><li>Log In</li></a>
+					<a href="signup.html"><li>Sign Up</li></a>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- Main Body -->
+		<div class="main-content">
+			<h1>Host an Event</h1>
+			<p>Tell us a little bit about the competition you're planning.</p>
+			
+			<h2>Basic Information</h2>
+			<div class="form-section">
+				<div class="input-wrapper">
+					<div class="label">Competition Name</div>
+					<input type="text" id="cname" name="cname" size="35">
+				</div>
+				<div class="ig-wrapper">
+					<div class="input-wrapper">
+						<div class="label">Start Date</div>
+						<input type="text" id="sdate" name="sdate" size="10">
+					</div>
+					<div class="input-wrapper">
+						<div class="label">End Date</div>
+						<input type="text" id="edate" name="edate" size="10">
+					</div>
+				</div>
+				<div class="ig-wrapper">
+					<div class="input-wrapper">
+						<div class="label">Venue Address</div>
+						<input type="text" id="add1" name="add1" size="30">
+					</div>
+					<div class="input-wrapper">
+						<div class="label">City</div>
+						<input type="text" id="city" name="city" size="15">
+					</div>
+					<div class="input-wrapper">
+						<div class="label">State</div>
+						<input type="text" id="state" name="state" size="2" maxlength="2">
+					</div>
+					<div class="input-wrapper">
+						<div class="label">ZIP</div>
+						<input type="text" id="zip" name="zip" size="5" maxlength="5">
+					</div>
+				</div>
+				<div class="input-wrapper">
+					<div class="label">Website</div>
+					<input type="text" id="website" name="website" size="50">
+				</div>
+			</div>
+			<div class="clear"></div>
+			<h2>Hardware Requirements</h2>
+			<div class="form-section">
+				<div class="input-wrapper">
+					<div class="label">Scoring Type</div>
+					<select id="scoretype" name="scoretype">
+						<option value="1">Electronic</option>
+						<option value="2">Paper</option>
+					</select>
+				</div>
+				<div class="clear"></div>
+				<div class="ig-wrapper">
+					<div class="input-wrapper">
+						<div class="label">How many judges will you have on the floor?</div>
+						<select id="njudge" name="njudge">
+							<option>3</option>
+							<option>4</option>
+							<option selected>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+						</select>
+					</div>
+					<div class="input-wrapper">
+						<div class="label">How many deck captains will be checking people in?</div>
+						<select id="ndeck" name="ndeck">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+					<div class="input-wrapper">
+						<div class="label">Will you allow competitors to check themselves in?</div>
+						<select id="ccheck" name="ccheck">
+							<option value="1">Yes</option>
+							<option value="2">No</option>
+						</select>
+					</div>
+					<div class="input-wrapper">
+						<div class="label">How many tablets do you have?</div>
+						<select id="ntablets" name="ntablets">
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+						</select>
+					</div>
+				</div>
+				<div class="input-wrapper">
+					<div class="label">How many devices do you need internet for?</div>
+					<select id="ndevices" name="ndevices">
+						<option>0</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+					</select>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<input type="button" value="Continue">
+		</div>
+	</div>
+</div>
+<!-- Footer -->
+<div id="footer">
+	<div id="copyright">&copy; 2017 Ballroom Comp Express</div>
+</div>
+</body>
+</html>
