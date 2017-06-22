@@ -16,6 +16,11 @@ h2
 	color: #1e5dc9;
 }
 
+h2.k
+{
+	color: #000;
+}
+
 h4
 {
 	font-style: italic;
@@ -177,6 +182,7 @@ a
 .label
 {
 	font-weight: bold;
+	max-width: 220px;
 }
 
 .sublabel
@@ -325,6 +331,42 @@ a
 	float:none;
 }
 
+.form-section
+{
+	margin-left: 8px;
+	max-width: calc(100% - 16px);
+}
+
+.input-wrapper
+{
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+
+.ig-wrapper
+{
+	float:left;
+}
+
+input,
+select
+{
+	max-width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+input[type="button"]
+{
+	background-color: #6eeace;
+	font-size: 16pt;
+	font-weight: bold;
+	cursor: pointer;
+}
+
 #footer
 {
 	position: relative; 
@@ -376,6 +418,11 @@ a
 .mb0
 {
 	margin-bottom: 0px;
+}
+
+.ml8
+{
+	margin-left: 8px;
 }
 
 .clear
