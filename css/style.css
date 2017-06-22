@@ -365,6 +365,8 @@ input[type="button"]
 	font-size: 16pt;
 	font-weight: bold;
 	cursor: pointer;
+	padding: 4px 15px;
+	border-radius: 17px;
 }
 
 #footer
